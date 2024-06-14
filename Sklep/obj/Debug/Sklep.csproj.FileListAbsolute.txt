@@ -1,0 +1,5 @@
+C:\Users\KRUL\source\repos\Sklep\obj\Debug\Sklep.csproj.AssemblyReference.cache
+C:\Users\KRUL\source\repos\Sklep\obj\Debug\Sklep.MainForm.resources
+C:\Users\KRUL\source\repos\Sklep\obj\Debug\Sklep.Properties.Resources.resources
+C:\Users\KRUL\source\repos\Sklep\obj\Debug\Sklep.csproj.GenerateResource.cache
+C:\Users\KRUL\source\repos\Sklep\obj\Debug\Sklep.csproj.CoreCompileInputs.cache

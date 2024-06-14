@@ -1,0 +1,14 @@
+C:\Users\KRUL\source\repos\KotWButach\bin\Debug\KotWButach.exe.config
+C:\Users\KRUL\source\repos\KotWButach\bin\Debug\KotWButach.exe
+C:\Users\KRUL\source\repos\KotWButach\bin\Debug\KotWButach.pdb
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.csproj.AssemblyReference.cache
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Dodawanieproduktu.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.oknoglowne.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Properties.Resources.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.csproj.GenerateResource.cache
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.csproj.CoreCompileInputs.cache
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.exe
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.pdb
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Pokazprodukty.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.pokazklientow.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.dodajcene.resources

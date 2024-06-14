@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|c:\\users\\krul\\source\\repos\\kotwbutach\\dodajcene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|solutionrelative:dodajcene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|c:\\users\\krul\\source\\repos\\kotwbutach\\dodajcene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|solutionrelative:dodajcene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|c:\\users\\krul\\source\\repos\\kotwbutach\\dodawanieproduktu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|solutionrelative:dodawanieproduktu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|c:\\users\\krul\\source\\repos\\kotwbutach\\dodawanieproduktu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1BBF43-9D97-4927-BB3D-6C1C2E5F2975}|KotWButach.csproj|solutionrelative:dodawanieproduktu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dodajcene.cs",
+              "DocumentMoniker": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\dodajcene.cs",
+              "RelativeDocumentMoniker": "dodajcene.cs",
+              "ToolTip": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\dodajcene.cs",
+              "RelativeToolTip": "dodajcene.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAowC0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:18:02.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dodajcene.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\dodajcene.cs",
+              "RelativeDocumentMoniker": "dodajcene.cs",
+              "ToolTip": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\dodajcene.cs [Design]",
+              "RelativeToolTip": "dodajcene.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:18:00.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dodawanieproduktu.cs",
+              "DocumentMoniker": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\Dodawanieproduktu.cs",
+              "RelativeDocumentMoniker": "Dodawanieproduktu.cs",
+              "ToolTip": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\Dodawanieproduktu.cs",
+              "RelativeToolTip": "Dodawanieproduktu.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:17:48.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dodawanieproduktu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\Dodawanieproduktu.cs",
+              "RelativeDocumentMoniker": "Dodawanieproduktu.cs",
+              "ToolTip": "C:\\Users\\KRUL\\source\\repos\\KotWButach\\Dodawanieproduktu.cs [Design]",
+              "RelativeToolTip": "Dodawanieproduktu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:17:47.19Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\KRUL\source\repos\SklepZButami\bin\Debug\SklepZButami.exe.config
+C:\Users\KRUL\source\repos\SklepZButami\bin\Debug\SklepZButami.exe
+C:\Users\KRUL\source\repos\SklepZButami\bin\Debug\SklepZButami.pdb
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.csproj.AssemblyReference.cache
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.mainform.resources
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.Properties.Resources.resources
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.csproj.GenerateResource.cache
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.csproj.CoreCompileInputs.cache
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.exe
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.pdb
+C:\Users\KRUL\source\repos\SklepZButami\obj\Debug\SklepZButami.AplikacjaSklepu.resources
