@@ -12,3 +12,4 @@ C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.pdb
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Pokazprodukty.resources
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.pokazklientow.resources
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.dodajcene.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Dodajklientow.resources

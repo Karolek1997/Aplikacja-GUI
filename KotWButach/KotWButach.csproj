@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dodajklientow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodajklientow.Designer.cs">
+      <DependentUpon>Dodajklientow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dodawanieproduktu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dodajklientow.resx">
+      <DependentUpon>Dodajklientow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dodawanieproduktu.resx">
       <DependentUpon>Dodawanieproduktu.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +125,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlo klient.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotekwbutach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotekkk.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlocenana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1223434524.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlotlo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

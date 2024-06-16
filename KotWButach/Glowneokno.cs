@@ -44,5 +44,16 @@ namespace KotWButach
             dodajcene dodajceneForm = new dodajcene();
             dodajceneForm.ShowDialog();
         }
+
+        private void dodajklientow_button_Click(object sender, EventArgs e)
+        {
+            Dodajklientow dodajklientowForm = new Dodajklientow();
+            dodajklientowForm.ShowDialog();
+        }
+
+        private void oknoglowne_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

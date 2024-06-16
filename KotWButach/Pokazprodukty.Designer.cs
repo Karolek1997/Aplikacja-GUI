@@ -34,17 +34,18 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Highlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1233, 624);
+            this.dataGridView1.Size = new System.Drawing.Size(852, 624);
             this.dataGridView1.TabIndex = 0;
             // 
             // Pokazprodukty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 648);
+            this.ClientSize = new System.Drawing.Size(878, 648);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Pokazprodukty";
             this.Text = "Lista produktów";

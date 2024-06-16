@@ -37,7 +37,7 @@ namespace KotWButach
                         int i = cmd.ExecuteNonQuery();
                         if (i > 0)
                         {
-                            MessageBox.Show("Produkt został dodany.");
+                            MessageBox.Show("Produkt został dodany");
                         }
                         else
                         {
@@ -48,7 +48,7 @@ namespace KotWButach
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message);
+                MessageBox.Show("Wystąpił błąd " + ex.Message);
             }
         }
 
@@ -74,7 +74,7 @@ namespace KotWButach
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while populating the combo box: " + ex.Message);
+                MessageBox.Show("Wystąpił błąd " + ex.Message);
             }
         }
 
@@ -85,7 +85,7 @@ namespace KotWButach
 
         private void label1_Click(object sender, EventArgs e)
         {
-            // Puste zdarzenie, jeśli nie jest potrzebne, można usunąć
+           
         }
 
         private void Dodawanieproduktu_Load(object sender, EventArgs e)
