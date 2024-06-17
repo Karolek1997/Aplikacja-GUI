@@ -1,6 +1,0 @@
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.csproj.AssemblyReference.cache
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.Aplikacja_Sklepu.resources
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.Properties.Resources.resources
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.csproj.GenerateResource.cache
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.csproj.CoreCompileInputs.cache
-C:\Users\KRUL\source\repos\AplikacjaSklepu\obj\Debug\AplikacjaSklepu.AplikacjaSklepu.resources
