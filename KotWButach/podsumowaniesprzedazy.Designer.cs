@@ -34,17 +34,19 @@
             // 
             // WidokPodsumowaniaSprzedazy
             // 
+            this.WidokPodsumowaniaSprzedazy.BackgroundColor = System.Drawing.Color.IndianRed;
             this.WidokPodsumowaniaSprzedazy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.WidokPodsumowaniaSprzedazy.Location = new System.Drawing.Point(12, 12);
             this.WidokPodsumowaniaSprzedazy.Name = "WidokPodsumowaniaSprzedazy";
-            this.WidokPodsumowaniaSprzedazy.Size = new System.Drawing.Size(887, 426);
+            this.WidokPodsumowaniaSprzedazy.Size = new System.Drawing.Size(452, 426);
             this.WidokPodsumowaniaSprzedazy.TabIndex = 0;
             // 
             // podsumowaniesprzedazy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(911, 450);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.ClientSize = new System.Drawing.Size(464, 450);
             this.Controls.Add(this.WidokPodsumowaniaSprzedazy);
             this.Name = "podsumowaniesprzedazy";
             this.Text = "podsumowaniesprzedazy";
