@@ -1,6 +1,0 @@
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.csproj.AssemblyReference.cache
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.mainform.resources
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.Properties.Resources.resources
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.form.resources
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.csproj.GenerateResource.cache
-C:\Users\KRUL\source\repos\Nauka\Nauka\obj\Debug\Nauka.csproj.CoreCompileInputs.cache
