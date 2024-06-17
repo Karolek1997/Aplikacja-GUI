@@ -33,6 +33,7 @@
             this.pokazklientow_button = new System.Windows.Forms.Button();
             this.dodajcene_button = new System.Windows.Forms.Button();
             this.dodajklientow_button = new System.Windows.Forms.Button();
+            this.zamowienia_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dodajprodukt_button
@@ -53,7 +54,7 @@
             this.pokazprodukty_button.BackColor = System.Drawing.Color.PaleGreen;
             this.pokazprodukty_button.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pokazprodukty_button.ForeColor = System.Drawing.Color.DarkGreen;
-            this.pokazprodukty_button.Location = new System.Drawing.Point(12, 337);
+            this.pokazprodukty_button.Location = new System.Drawing.Point(12, 326);
             this.pokazprodukty_button.Name = "pokazprodukty_button";
             this.pokazprodukty_button.Size = new System.Drawing.Size(180, 45);
             this.pokazprodukty_button.TabIndex = 1;
@@ -100,6 +101,19 @@
             this.dodajklientow_button.UseVisualStyleBackColor = false;
             this.dodajklientow_button.Click += new System.EventHandler(this.dodajklientow_button_Click);
             // 
+            // zamowienia_button
+            // 
+            this.zamowienia_button.BackColor = System.Drawing.Color.PaleGreen;
+            this.zamowienia_button.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zamowienia_button.ForeColor = System.Drawing.Color.DarkGreen;
+            this.zamowienia_button.Location = new System.Drawing.Point(12, 393);
+            this.zamowienia_button.Name = "zamowienia_button";
+            this.zamowienia_button.Size = new System.Drawing.Size(180, 45);
+            this.zamowienia_button.TabIndex = 5;
+            this.zamowienia_button.Text = "ZAMÓWIENIA";
+            this.zamowienia_button.UseVisualStyleBackColor = false;
+            this.zamowienia_button.Click += new System.EventHandler(this.zamowienia_button_Click);
+            // 
             // oknoglowne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -108,6 +122,7 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::KotWButach.Properties.Resources.kotekkk;
             this.ClientSize = new System.Drawing.Size(794, 450);
+            this.Controls.Add(this.zamowienia_button);
             this.Controls.Add(this.dodajklientow_button);
             this.Controls.Add(this.dodajcene_button);
             this.Controls.Add(this.pokazklientow_button);
@@ -127,6 +142,7 @@
         private System.Windows.Forms.Button pokazklientow_button;
         private System.Windows.Forms.Button dodajcene_button;
         private System.Windows.Forms.Button dodajklientow_button;
+        private System.Windows.Forms.Button zamowienia_button;
     }
 }
 

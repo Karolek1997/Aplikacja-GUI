@@ -55,5 +55,11 @@ namespace KotWButach
         {
 
         }
+
+        private void zamowienia_button_Click(object sender, EventArgs e)
+        {
+            SprawdzZamowienia sprawdzZamowieniaForm = new SprawdzZamowienia();
+            sprawdzZamowieniaForm.ShowDialog();
+        }
     }
 }
