@@ -37,7 +37,7 @@
             this.Widokzamowienia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Widokzamowienia.Location = new System.Drawing.Point(12, 12);
             this.Widokzamowienia.Name = "Widokzamowienia";
-            this.Widokzamowienia.Size = new System.Drawing.Size(652, 426);
+            this.Widokzamowienia.Size = new System.Drawing.Size(852, 625);
             this.Widokzamowienia.TabIndex = 0;
             // 
             // SprawdzZamowienia
@@ -48,6 +48,7 @@
             this.Controls.Add(this.Widokzamowienia);
             this.Name = "SprawdzZamowienia";
             this.Text = "SprawdzZamowienia";
+            this.Load += new System.EventHandler(this.SprawdzZamowienia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Widokzamowienia)).EndInit();
             this.ResumeLayout(false);
 
@@ -56,5 +57,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView Widokzamowienia;
+
     }
 }

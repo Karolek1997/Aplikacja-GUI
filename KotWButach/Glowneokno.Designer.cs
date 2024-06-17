@@ -34,6 +34,7 @@
             this.dodajcene_button = new System.Windows.Forms.Button();
             this.dodajklientow_button = new System.Windows.Forms.Button();
             this.zamowienia_button = new System.Windows.Forms.Button();
+            this.podsumowaniesprzedazy_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dodajprodukt_button
@@ -114,6 +115,19 @@
             this.zamowienia_button.UseVisualStyleBackColor = false;
             this.zamowienia_button.Click += new System.EventHandler(this.zamowienia_button_Click);
             // 
+            // podsumowaniesprzedazy_button
+            // 
+            this.podsumowaniesprzedazy_button.BackColor = System.Drawing.Color.PaleGreen;
+            this.podsumowaniesprzedazy_button.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.podsumowaniesprzedazy_button.ForeColor = System.Drawing.Color.DarkGreen;
+            this.podsumowaniesprzedazy_button.Location = new System.Drawing.Point(12, 199);
+            this.podsumowaniesprzedazy_button.Name = "podsumowaniesprzedazy_button";
+            this.podsumowaniesprzedazy_button.Size = new System.Drawing.Size(180, 45);
+            this.podsumowaniesprzedazy_button.TabIndex = 6;
+            this.podsumowaniesprzedazy_button.Text = "PODSUMOWANIE SPRZEDAŻY";
+            this.podsumowaniesprzedazy_button.UseVisualStyleBackColor = false;
+            this.podsumowaniesprzedazy_button.Click += new System.EventHandler(this.podsumowaniesprzedazy_button_Click);
+            // 
             // oknoglowne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +136,7 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::KotWButach.Properties.Resources.kotekkk;
             this.ClientSize = new System.Drawing.Size(794, 450);
+            this.Controls.Add(this.podsumowaniesprzedazy_button);
             this.Controls.Add(this.zamowienia_button);
             this.Controls.Add(this.dodajklientow_button);
             this.Controls.Add(this.dodajcene_button);
@@ -143,6 +158,7 @@
         private System.Windows.Forms.Button dodajcene_button;
         private System.Windows.Forms.Button dodajklientow_button;
         private System.Windows.Forms.Button zamowienia_button;
+        private System.Windows.Forms.Button podsumowaniesprzedazy_button;
     }
 }
 

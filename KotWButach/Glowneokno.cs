@@ -61,5 +61,11 @@ namespace KotWButach
             SprawdzZamowienia sprawdzZamowieniaForm = new SprawdzZamowienia();
             sprawdzZamowieniaForm.ShowDialog();
         }
+
+        private void podsumowaniesprzedazy_button_Click(object sender, EventArgs e)
+        {
+            podsumowaniesprzedazy podsumowaniesprzedazyForm = new podsumowaniesprzedazy();
+            podsumowaniesprzedazyForm.ShowDialog();
+        }
     }
 }

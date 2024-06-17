@@ -71,6 +71,12 @@
     <Compile Include="Glowneokno.Designer.cs">
       <DependentUpon>Glowneokno.cs</DependentUpon>
     </Compile>
+    <Compile Include="podsumowaniesprzedazy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="podsumowaniesprzedazy.Designer.cs">
+      <DependentUpon>podsumowaniesprzedazy.cs</DependentUpon>
+    </Compile>
     <Compile Include="pokazklientow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Glowneokno.resx">
       <DependentUpon>Glowneokno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="podsumowaniesprzedazy.resx">
+      <DependentUpon>podsumowaniesprzedazy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pokazklientow.resx">
       <DependentUpon>pokazklientow.cs</DependentUpon>

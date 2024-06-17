@@ -14,3 +14,4 @@ C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.pokazklientow.resourc
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.dodajcene.resources
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.Dodajklientow.resources
 C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.SprawdzZamowienia.resources
+C:\Users\KRUL\source\repos\KotWButach\obj\Debug\KotWButach.podsumowaniesprzedazy.resources

@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace KotWButach
 {
-    public partial class SprawdzZamowienia : Form
+    public partial class podsumowaniesprzedazy : Form
     {
         private string connstring;
 
-        public SprawdzZamowienia()
+        public podsumowaniesprzedazy()
         {
             InitializeComponent();
             connstring = ConfigurationManager.ConnectionStrings["myconnection"].ConnectionString;
@@ -31,7 +31,7 @@ namespace KotWButach
                 using (SqlConnection sqlcon = new SqlConnection(connstring))
                 {
                     sqlcon.Open();
-                    using (SqlCommand cmd = new SqlCommand("SELECT * FROM Zamowienia", sqlcon))
+                    using (SqlCommand cmd = new SqlCommand("EXEC PodsumujSprzedaz", sqlcon))
                     {
                         cmd.CommandType = CommandType.Text;
 
@@ -39,20 +39,19 @@ namespace KotWButach
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         da.Fill(dt);
 
-                     
-                        Widokzamowienia.DataSource = dt;
+                        WidokPodsumowaniaSprzedazy.DataSource = dt;
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Wystąpił błąd" + ex.Message);
+                MessageBox.Show("Wystąpił błąd: " + ex.Message);
             }
         }
 
-        private void SprawdzZamowienia_Load(object sender, EventArgs e)
+        private void podsumowaniesprzedazy_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
