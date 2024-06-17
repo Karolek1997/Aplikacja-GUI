@@ -15,7 +15,6 @@ namespace KotWButach
             InitializeComponent();
             connstring = ConfigurationManager.ConnectionStrings["myconnection"].ConnectionString;
 
-            // Wywołanie funkcji do wykonania zapytania i wyświetlenia wyników
             ExecuteQuery();
         }
 
@@ -34,7 +33,6 @@ namespace KotWButach
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         da.Fill(dt);
 
-                        // Ustawienie danych do wyświetlenia w dataGridView1
                         dataGridView1.DataSource = dt;
                     }
                 }

@@ -25,17 +25,13 @@ namespace KotWButach
 
         private void pokazprodukty_button_Click(object sender, EventArgs e)
         {
-            // Tworzenie nowego okna Pokazprodukty
             Pokazprodukty pokazproduktyForm = new Pokazprodukty();
-
-            // Pokazanie okna
             pokazproduktyForm.ShowDialog();
         }
 
         private void pokazklientow_button_Click(object sender, EventArgs e)
         {
             pokazklientow pokazklientowForm = new pokazklientow();
-
             pokazklientowForm.ShowDialog();
         }
 

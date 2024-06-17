@@ -21,13 +21,12 @@ namespace KotWButach
             InitializeComponent();
             connstring = ConfigurationManager.ConnectionStrings["myconnection"].ConnectionString;
 
-            // Wywołanie funkcji do wykonania zapytania i wyświetlenia wyników
             ExecuteQuery();
         }
 
         private void pokazklientow_Load(object sender, EventArgs e)
         {
-            // Kod do wykonania podczas ładowania formularza
+
             ExecuteQuery();
         }
 
@@ -46,14 +45,13 @@ namespace KotWButach
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         da.Fill(dt);
 
-                        // Ustawienie danych do wyświetlenia w dataGridView1
                         dataGridView1.DataSource = dt;
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while executing the query: " + ex.Message);
+                MessageBox.Show("Wystąpił błąd" + ex.Message);
             }
         }
     }
