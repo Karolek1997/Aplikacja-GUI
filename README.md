@@ -5,7 +5,7 @@ Projekt zawiera aplikacje GUI do obsługi bazy danych sklepu internetowego
 ![Example Image](KotWButach/aplikacjascreen.JPG)
 
 # Okno dodawania produktów do sklepu
-![Example Image](KotWButach/oknododajprodukt.JPG)
+![Example Image](KotWButach/oknododajprodukty.JPG)
 
 # Okno dodawania/aktualizowania ceny do wybranych produktów
 ![Example Image](KotWButach/oknododajcene.JPG)
