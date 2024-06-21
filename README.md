@@ -3,6 +3,7 @@ Projekt zawiera aplikacje GUI do obsługi bazy danych sklepu internetowego
 
 # Główne okno aplikacji
 ![Example Image](KotWButach/aplikacjascreen.JPG)
+
 Okno aplikacji umożliwia:
 - dodanie nowych produktów do bazy danych,
 - dodanie ceny do produktów w danym modelu, w danej kategorii produktu,
@@ -14,6 +15,7 @@ Okno aplikacji umożliwia:
 
 # Okno dodawania produktów do sklepu
 ![Example Image](KotWButach/oknododajprodukty.JPG)
+
 Okno Dodaj produkt umożliwia dodawanie produktów do bazy danych sklepu w wyznaczonych kategoriach produktu z listy rozwijanej. 
 Po wyborze kategorii produktu można dodać następujące informacje:
 - producent,
@@ -27,14 +29,18 @@ W przypadku, kiedy produkt istnieje już w bazie danych i ma on określoną dost
 
 # Okno dodawania/aktualizowania ceny do wybranych produktów
 ![Example Image](KotWButach/oknododajcene.JPG)
+
 Okno Dodaj cenę umożliwia dodanie/aktualizowanie (jeśli istnieje) ceny netto wybranego modelu produktu z listy rozwijanej w wybranej kategorii.
 
 # Okno dodawania klientów
 ![Example Image](KotWButach/oknododajklientow.JPG)
+
 Okno Dodajklientów umożliwia ręczne dodanie klienta do bazy danych sklepu. 
 Zastosowane rozwiązania nie zezwalają na duplikaty loginu i emaila. Dodatkowo blokowane jest dodawanie kodu pocztowego w innym formacie niż xx-xxx.
+
 # Okno do wyświetlania klientów
 ![Example Image](KotWButach/oknolistaklientow.JPG)
+
 Okno Lista klientów umożliwia wyświetlanie listy klientów sklepu wraz z ich pełnymi danymi.
 
 
