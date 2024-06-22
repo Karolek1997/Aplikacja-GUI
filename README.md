@@ -43,4 +43,17 @@ Zastosowane rozwiązania nie zezwalają na duplikaty loginu i emaila. Dodatkowo 
 
 Okno Lista klientów umożliwia wyświetlanie listy klientów sklepu wraz z ich pełnymi danymi.
 
+# Okno do wyświetlania produktów
+![Example Image](KotWButach/oknolistaproduktow.JPG)
 
+Okno Lista produktów umożliwia wyświetlanie listy produktów sklepu wraz z danymi dotyczącymi koloru, modelu, producenta...
+
+# Okno do wyświetlania zamówien
+![Example Image](KotWButach/oknolistazamowien.JPG)
+
+Okno Sprawdz zamowienia umożliwia przegląd zamówien złozonych w sklepie.
+
+# Okno podsumowania sprzedaży
+![Example Image](KotWButach/podsumowaniesprzedazy.JPG)
+
+Okno Podsumowanie sprzedaży służy do szybkiego podsumowania dochodu netto i brutto oraz w liczby zrealizowanych zamówien w danym roku.
