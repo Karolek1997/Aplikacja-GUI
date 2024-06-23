@@ -41,7 +41,7 @@ Zastosowane rozwiązania nie zezwalają na duplikaty loginu i emaila. Dodatkowo 
 # Okno dodawania opisów
 ![Example Image](KotWButach/oknododajopis.jpg)
 
-Okno dodawania opisów umożliwia globalne dodanie opisu dla danego modelu dla każdej kategorii produktu jednocześnie.
+Okno dodawania opisów umożliwia globalne dodanie opisu dla danego modelu dla każdej kategorii produktu jednocześnie. Model należy wybrać z listy rozwijanej.
 
 # Okno do wyświetlania klientów
 ![Example Image](KotWButach/oknolistaklientow.JPG)
