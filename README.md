@@ -39,7 +39,7 @@ Okno Dodaj klientów umożliwia ręczne dodanie klienta do bazy danych sklepu.
 Zastosowane rozwiązania nie zezwalają na duplikaty loginu i emaila. Dodatkowo blokowane jest dodawanie kodu pocztowego w innym formacie niż xx-xxx.
 
 # Okno dodawania opisów
-![Example Image](KotWButach/oknododajopis.JPG)
+![Example Image](KotWButach/oknododajopis.jpg)
 
 Okno dodawania opisów umożliwia globalne dodanie opisu dla danego modelu dla każdej kategorii produktu jednocześnie.
 
