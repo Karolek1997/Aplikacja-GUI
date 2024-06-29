@@ -36,6 +36,7 @@
             this.close_button1 = new System.Windows.Forms.Button();
             this.Wybor_Kategorii1 = new System.Windows.Forms.ComboBox();
             this.Wybor_Modelu = new System.Windows.Forms.ComboBox();
+            this.sprawdzprodukty_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +78,7 @@
             // cenanetto_textbox
             // 
             this.cenanetto_textbox.Location = new System.Drawing.Point(687, 183);
-            this.cenanetto_textbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cenanetto_textbox.Margin = new System.Windows.Forms.Padding(5);
             this.cenanetto_textbox.Name = "cenanetto_textbox";
             this.cenanetto_textbox.Size = new System.Drawing.Size(421, 28);
             this.cenanetto_textbox.TabIndex = 5;
@@ -86,8 +87,8 @@
             // 
             this.save_button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.save_button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.save_button1.Location = new System.Drawing.Point(687, 346);
-            this.save_button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.save_button1.Location = new System.Drawing.Point(687, 246);
+            this.save_button1.Margin = new System.Windows.Forms.Padding(5);
             this.save_button1.Name = "save_button1";
             this.save_button1.Size = new System.Drawing.Size(125, 37);
             this.save_button1.TabIndex = 6;
@@ -99,8 +100,8 @@
             // 
             this.close_button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.close_button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.close_button1.Location = new System.Drawing.Point(985, 346);
-            this.close_button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.close_button1.Location = new System.Drawing.Point(983, 246);
+            this.close_button1.Margin = new System.Windows.Forms.Padding(5);
             this.close_button1.Name = "close_button1";
             this.close_button1.Size = new System.Drawing.Size(125, 37);
             this.close_button1.TabIndex = 7;
@@ -112,19 +113,30 @@
             // 
             this.Wybor_Kategorii1.FormattingEnabled = true;
             this.Wybor_Kategorii1.Location = new System.Drawing.Point(687, 34);
-            this.Wybor_Kategorii1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Wybor_Kategorii1.Margin = new System.Windows.Forms.Padding(5);
             this.Wybor_Kategorii1.Name = "Wybor_Kategorii1";
             this.Wybor_Kategorii1.Size = new System.Drawing.Size(421, 29);
             this.Wybor_Kategorii1.TabIndex = 17;
+            this.Wybor_Kategorii1.SelectedIndexChanged += new System.EventHandler(this.Wybor_Kategorii1_SelectedIndexChanged);
             // 
             // Wybor_Modelu
             // 
             this.Wybor_Modelu.FormattingEnabled = true;
             this.Wybor_Modelu.Location = new System.Drawing.Point(687, 107);
-            this.Wybor_Modelu.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Wybor_Modelu.Margin = new System.Windows.Forms.Padding(5);
             this.Wybor_Modelu.Name = "Wybor_Modelu";
             this.Wybor_Modelu.Size = new System.Drawing.Size(421, 29);
             this.Wybor_Modelu.TabIndex = 18;
+            // 
+            // sprawdzprodukty_button
+            // 
+            this.sprawdzprodukty_button.Location = new System.Drawing.Point(773, 356);
+            this.sprawdzprodukty_button.Name = "sprawdzprodukty_button";
+            this.sprawdzprodukty_button.Size = new System.Drawing.Size(237, 33);
+            this.sprawdzprodukty_button.TabIndex = 20;
+            this.sprawdzprodukty_button.Text = "Sprawdz produkty bez ceny";
+            this.sprawdzprodukty_button.UseVisualStyleBackColor = true;
+            this.sprawdzprodukty_button.Click += new System.EventHandler(this.sprawdzprodukty_button_Click);
             // 
             // dodajcene
             // 
@@ -132,6 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::KotWButach.Properties.Resources.tlocenana;
             this.ClientSize = new System.Drawing.Size(1146, 427);
+            this.Controls.Add(this.sprawdzprodukty_button);
             this.Controls.Add(this.Wybor_Modelu);
             this.Controls.Add(this.Wybor_Kategorii1);
             this.Controls.Add(this.close_button1);
@@ -141,7 +154,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "dodajcene";
             this.Text = "Dodaj cenę";
             this.Load += new System.EventHandler(this.dodajcene_Load);
@@ -159,5 +172,6 @@
         private System.Windows.Forms.Button close_button1;
         private System.Windows.Forms.ComboBox Wybor_Kategorii1;
         private System.Windows.Forms.ComboBox Wybor_Modelu;
+        private System.Windows.Forms.Button sprawdzprodukty_button;
     }
 }

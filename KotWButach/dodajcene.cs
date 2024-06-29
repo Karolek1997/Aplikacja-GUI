@@ -43,7 +43,7 @@ namespace KotWButach
                         {
                             MessageBox.Show("Cena została dodana.");
                         }
-                        else if (returnValue == 1)
+                        else if (returnValue == 2)
                         {
                             MessageBox.Show("Nie znaleziono modelu o podanej kategorii i nazwie modelu.");
                         }
@@ -60,7 +60,7 @@ namespace KotWButach
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Błąd 1 " + ex.Message);
+                MessageBox.Show("Błąd: " + ex.Message);
             }
         }
 
@@ -77,7 +77,6 @@ namespace KotWButach
                         cmd.CommandType = CommandType.StoredProcedure;
                         SqlDataReader reader = cmd.ExecuteReader();
                         dt.Load(reader);
-                        con.Close();
                     }
                 }
                 Wybor_Kategorii1.DataSource = dt;
@@ -86,7 +85,7 @@ namespace KotWButach
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Błąd 2" + ex.Message);
+                MessageBox.Show("Błąd: " + ex.Message);
             }
         }
 
@@ -103,7 +102,6 @@ namespace KotWButach
                         cmd.CommandType = CommandType.StoredProcedure;
                         SqlDataReader reader = cmd.ExecuteReader();
                         dt.Load(reader);
-                        con.Close();
                     }
                 }
                 Wybor_Modelu.DataSource = dt;
@@ -112,8 +110,18 @@ namespace KotWButach
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Błąd 3: " + ex.Message);
+                MessageBox.Show("Błąd: " + ex.Message);
             }
+        }
+
+        private void dodajcene_Load(object sender, EventArgs e)
+        {
+            // Możesz dodać kod inicjalizacji tutaj, jeśli jest taka potrzeba
+        }
+
+        private void Wybor_Kategorii1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Możesz dodać kod obsługi zmiany wyboru kategorii tutaj, jeśli jest taka potrzeba
         }
 
         private void close_button1_Click(object sender, EventArgs e)
@@ -121,9 +129,44 @@ namespace KotWButach
             this.Close();
         }
 
-        private void dodajcene_Load(object sender, EventArgs e)
+        private void sprawdzprodukty_button_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
+                DataTable dataTable = GetDataFromsprawdzcenyProcedure();
+                sprawdzceny formSprawdzceny = new sprawdzceny();
+                formSprawdzceny.produktybezcenGrid.DataSource = dataTable;
+                formSprawdzceny.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Błąd: " + ex.Message);
+            }
+        }
+
+        private DataTable GetDataFromsprawdzcenyProcedure()
+        {
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connstring))
+                {
+                    using (SqlCommand cmd = new SqlCommand("sprawdzceny", con))
+                    {
+                        con.Open();
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        dataTable.Load(reader);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Błąd: " + ex.Message);
+            }
+
+            return dataTable;
         }
     }
 }
