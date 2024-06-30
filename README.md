@@ -31,7 +31,9 @@ W przypadku, kiedy produkt istnieje już w bazie danych i ma on określoną dost
 ![Example Image](ZdjęciaAplikacji/noweoknocena.JPG)
 
 Okno Dodaj cenę umożliwia dodanie/aktualizowanie (jeśli istnieje) ceny netto wybranego modelu produktu z listy rozwijanej w wybranej kategorii.
+
 ![Example Image](ZdjęciaAplikacji/noweoknobezcen2.JPG)
+
 Dodatkowo istnieje guzik, który umożliwia weryfikację czy istnieją w sklepie jakieś produkty bez ceny netto/brutto.
 
 # Okno dodawania klientów
