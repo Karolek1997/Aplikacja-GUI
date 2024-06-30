@@ -28,9 +28,11 @@ np. nie można dodać rozmiaru 45 do obuwia w kategorii damskiej.
 W przypadku, kiedy produkt istnieje już w bazie danych i ma on określoną dostępną ilość to procedura sumuję aktualna i nowo-dodaną ilość produktów - zwiększając zatem dostępną do zamówienia ilość (stan magazynowy).
 
 # Okno dodawania/aktualizowania ceny do wybranych produktów
-![Example Image](ZdjęciaAplikacji/oknododajcene.JPG)
+![Example Image](ZdjęciaAplikacji/noweoknocena.JPG)
 
 Okno Dodaj cenę umożliwia dodanie/aktualizowanie (jeśli istnieje) ceny netto wybranego modelu produktu z listy rozwijanej w wybranej kategorii.
+![Example Image](ZdjęciaAplikacji/noweoknocena2.JPG)
+Dodatkowo istnieje guzik, który umożliwia weryfikację czy istnieją w sklepie jakieś produkty bez ceny netto/brutto.
 
 # Okno dodawania klientów
 ![Example Image](ZdjęciaAplikacji/oknododajklientow.JPG)
